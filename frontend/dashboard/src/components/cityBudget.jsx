@@ -25,13 +25,16 @@ const CityBudget = () => {
 
     return (
         <div>
-            <h2>City Budget Data</h2>
-            <ul>
-                {budgetData.map((item, index) => (
-                    <li key={index}>{JSON.stringify(item)}</li>
-                ))}
-            </ul>
-        </div>
+        <h2>City Budget Data</h2>
+        <ul>
+            {budgetData.map((item) => (
+                <li key={item._id}>
+                    <h3>Year: {item.year}</h3>
+                    <p>Amount: ${item.amount}</p>
+                </li>
+            ))}
+        </ul>
+    </div>
     );
 }
 
