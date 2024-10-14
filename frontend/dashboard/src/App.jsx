@@ -4,9 +4,11 @@ import CityBudget from './components/cityBudget'
 import EnergyConsumption from './components/energyConsumption'
 import Services from './components/services'
 import Departments from './components/departments'
-import ServiceRequests from './components/serviceRequests'
 import BXLogo from './assets/BXLogo.png'
 import CityBudgetPieChart from './components/cityBudgetPieChart';
+import EnergyConsumptionBarChart from './components/energyConsumptionBarChart';
+import ServiceRequests from './components/serviceRequestsTable';
+import InfoCards from './components/infoCards';
 
 
 
@@ -25,9 +27,9 @@ function App() {
               </div>
             <h3 className='category'>MENU</h3>
             <div className='menuCategories'>
-              <div className='Link'>
+              <div className='Link Yellow' >
                 <Grid/>
-                <a href="#"><h2>Overview</h2></a>
+                <a href="#"><h2 >Overview</h2></a>
               </div>
               <div className='Link'>
                 <BarChart2/>
@@ -58,11 +60,14 @@ function App() {
                 <Lock/>
                 <a href="#"><h2>Security</h2></a>
               </div>
+              <div className='buttonAdd'>
+              <a href="#">Add New Project <PlusCircle /></a>
+            </div>
             </div>
           </div>
         </div>
         <div className='overviewPage'>
-          <div className='nav'>
+          {/*<div className='nav'>
             <div>
             <h1>City Admin</h1>
             </div>
@@ -73,12 +78,25 @@ function App() {
               <a href="#">Add New Project <PlusCircle /></a>
               
             </div>
-          </div>
+          </div>*/}
           <div className='dashboard'>
             <h1>Dashboard</h1>
-            <div>
+            <div className='charts'>
               <CityBudgetPieChart />
+              <EnergyConsumptionBarChart />
+              <div className="card update-card">
+                <p className="card-status">• Update</p>
+                <p className="card-date">Oct 12th 2024</p>
+                <h3 className="card-title">Budget allocation increased</h3>
+                <p className="card-description">15% in 1 month</p>
+                <a href="#" className="card-link">See Statistics &gt;</a>
             </div>
+            </div>
+            <div className='tables'>
+              <ServiceRequests />
+              <InfoCards />
+            </div>
+
             {/*<CityBudget />
             <EnergyConsumption />
             <Services />

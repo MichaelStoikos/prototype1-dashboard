@@ -14,6 +14,10 @@ body {
     background-color: #14532d;
 }
 
+.Yellow {
+    color: #afe230;
+}
+
 .sideBar-Content{
     padding-left: 25px;
     padding-top: 25px;
@@ -44,7 +48,17 @@ body {
 }
 
 .dashboard {
-    padding: 115px 40px 50px 40px;
+    padding: 25px 40px 0px 40px;
+}
+
+.charts {
+    display: flex;
+    gap: 25px;
+}
+
+.tables {
+    margin-top: 25px;
+    display: flex;
 }
 
 .logo a{
@@ -75,6 +89,20 @@ body {
     color: white;
 }
 
+.Yellow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -15px;
+    color: #afe230;
+}
+
+.Yellow h2{
+    text-decoration: none;
+    color: #afe230;
+    font-weight: bolder;
+}
+
 .Link h2 {
     font-weight: lighter;
 }
@@ -82,6 +110,16 @@ body {
 .Link a {
     text-decoration: none;
     color: white;
+}
+
+.Link a:hover {
+    color: #afe230;
+    transition: 0.9s;
+}
+
+.Link:hover {
+    color: #afe230;
+    transition: 0.9s;
 }
 
 .buttonAdd a{
@@ -92,8 +130,13 @@ body {
     border-radius: 15px;
     display: flex;
     align-items: center;
-    gap: 10px;
-    border: #14532d solid 3px;
+    gap: 18px;
+    border: white solid 3px;
+}
+
+.buttonAdd{
+    width: 65%;
+    margin-top: 25px;
 }
 
 .buttonAdd a:hover {
@@ -101,3 +144,4 @@ body {
     color: #14532d;
     transition: 1s;
 }
+

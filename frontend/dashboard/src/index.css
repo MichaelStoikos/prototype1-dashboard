@@ -1,3 +1,4 @@
+/*Pie Chart*/
 .pieChart {
     background-color: white;
     width: 450px;
@@ -5,8 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 5%;
+    border-radius: 15px;
     gap: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .pieChart h2 {
@@ -20,3 +22,144 @@
 .legend {
     margin-top: 50px;
 }
+
+/*Bar Chart*/
+.barChart{
+    background-color: white;
+    height: 430px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Service Table*/
+.service-requests-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 650px;
+}
+
+.service-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.service-requests-table th,
+.service-requests-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.service-requests-table th {
+    background-color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.status-completed {
+    color: #ffffff;
+    background-color: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: #ffffff;
+    background-color: #FFC107;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/*Info Cards*/
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Increased padding for more space */
+    width: 320px; /* Slightly larger width */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.update-card {
+    background-color: #17643b;
+    color: white;
+}
+
+.card-status {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+}
+
+.card-date {
+    font-size: 1.2rem; /* Increased font size */
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.8rem; /* Larger title */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-description {
+    font-size: 1.4rem; /* Larger description */
+    margin: 5px 0;
+}
+
+.card-link {
+    font-size: 1.2rem; /* Increased link size */
+    color: #ade792;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.budget-card, .energy-card {
+    background-color: #ffffff;
+}
+
+.card-heading {
+    font-size: 1.1rem; /* Increased heading size */
+    color: #555;
+}
+
+.card-amount {
+    font-size: 3rem; /* Much larger amount text */
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.card-change {
+    font-size: 1.3rem; /* Larger change text */
+}
+
+.positive {
+    color: #28a745;
+}
+
+.negative {
+    color: #dc3545;
+}
+
