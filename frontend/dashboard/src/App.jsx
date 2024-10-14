@@ -6,7 +6,7 @@ import Services from './components/services'
 import Departments from './components/departments'
 import ServiceRequests from './components/serviceRequests'
 import BXLogo from './assets/BXLogo.png'
-import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
+import CityBudgetPieChart from './components/cityBudgetPieChart';
 
 
 
@@ -62,12 +62,29 @@ function App() {
           </div>
         </div>
         <div className='overviewPage'>
-
-          {/*<CityBudget />
-          <EnergyConsumption />
-          <Services />
-          <ServiceRequests />
-          <Departments />*/}
+          <div className='nav'>
+            <div>
+            <h1>City Admin</h1>
+            </div>
+            <div>
+              <input type="text" placeholder="Search anything..." className="searchBar" />
+            </div>
+            <div className='buttonAdd'>
+              <a href="#">Add New Project <PlusCircle /></a>
+              
+            </div>
+          </div>
+          <div className='dashboard'>
+            <h1>Dashboard</h1>
+            <div>
+              <CityBudgetPieChart />
+            </div>
+            {/*<CityBudget />
+            <EnergyConsumption />
+            <Services />
+            <ServiceRequests />
+            <Departments />*/}
+          </div>
         </div>
       </div>
     </>

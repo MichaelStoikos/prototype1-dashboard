@@ -24,6 +24,29 @@ body {
     width: 100%;
 }
 
+.nav {
+    padding: 25px 40px 10px 40px;
+    width: 76%;
+    align-items: center;
+    position: fixed;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 999;
+}
+
+.searchBar {
+    padding: 15px;
+    width: 450px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.dashboard {
+    padding: 115px 40px 50px 40px;
+}
+
 .logo a{
     display: flex;
     gap: 10px;
@@ -59,4 +82,22 @@ body {
 .Link a {
     text-decoration: none;
     color: white;
+}
+
+.buttonAdd a{
+    background-color: #14532d;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: #14532d solid 3px;
+}
+
+.buttonAdd a:hover {
+    background-color: white;
+    color: #14532d;
+    transition: 1s;
 }

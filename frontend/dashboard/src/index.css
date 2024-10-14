@@ -1,0 +1,22 @@
+.pieChart {
+    background-color: white;
+    width: 450px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    gap: 50px;
+}
+
+.pieChart h2 {
+    text-align: center;
+}
+
+.pie {
+    margin-top: -50px;
+}
+
+.legend {
+    margin-top: 50px;
+}
