@@ -89,12 +89,12 @@
     background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 40px; /* Increased padding for more space */
-    width: 320px; /* Slightly larger width */
+    padding: 40px; 
+    width: 320px; 
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    justify-content: center; 
 }
 
 .update-card {
@@ -110,23 +110,23 @@
 }
 
 .card-date {
-    font-size: 1.2rem; /* Increased font size */
+    font-size: 1.2rem; 
     margin-bottom: 15px;
 }
 
 .card-title {
-    font-size: 1.8rem; /* Larger title */
+    font-size: 1.8rem;
     font-weight: bold;
     margin: 10px 0;
 }
 
 .card-description {
-    font-size: 1.4rem; /* Larger description */
+    font-size: 1.4rem; 
     margin: 5px 0;
 }
 
 .card-link {
-    font-size: 1.2rem; /* Increased link size */
+    font-size: 1.2rem; 
     color: #ade792;
     text-decoration: none;
     margin-top: 15px;
@@ -141,18 +141,18 @@
 }
 
 .card-heading {
-    font-size: 1.1rem; /* Increased heading size */
+    font-size: 1.1rem; 
     color: #555;
 }
 
 .card-amount {
-    font-size: 3rem; /* Much larger amount text */
+    font-size: 3rem; 
     font-weight: bold;
     margin: 15px 0;
 }
 
 .card-change {
-    font-size: 1.3rem; /* Larger change text */
+    font-size: 1.3rem; 
 }
 
 .positive {

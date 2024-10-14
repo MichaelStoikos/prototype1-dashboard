@@ -1,9 +1,5 @@
 import { Settings, Lock, MessageSquare, ShoppingBag, Users, BarChart2, Grid, PlusCircle } from 'lucide-react';
 import './App.css'
-import CityBudget from './components/cityBudget'
-import EnergyConsumption from './components/energyConsumption'
-import Services from './components/services'
-import Departments from './components/departments'
 import BXLogo from './assets/BXLogo.png'
 import CityBudgetPieChart from './components/cityBudgetPieChart';
 import EnergyConsumptionBarChart from './components/energyConsumptionBarChart';
@@ -67,18 +63,6 @@ function App() {
           </div>
         </div>
         <div className='overviewPage'>
-          {/*<div className='nav'>
-            <div>
-            <h1>City Admin</h1>
-            </div>
-            <div>
-              <input type="text" placeholder="Search anything..." className="searchBar" />
-            </div>
-            <div className='buttonAdd'>
-              <a href="#">Add New Project <PlusCircle /></a>
-              
-            </div>
-          </div>*/}
           <div className='dashboard'>
             <h1>Dashboard</h1>
             <div className='charts'>
@@ -96,12 +80,6 @@ function App() {
               <ServiceRequests />
               <InfoCards />
             </div>
-
-            {/*<CityBudget />
-            <EnergyConsumption />
-            <Services />
-            <ServiceRequests />
-            <Departments />*/}
           </div>
         </div>
       </div>
