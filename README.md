@@ -38,7 +38,7 @@ This project provides a dashboard interface with different data visualizations u
 
 Ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v14+ recommended)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/)
 
 ### Installation
 
@@ -46,14 +46,14 @@ Ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/MichaelStoikos/prototype1-dashboard.git
 
-2. **Dependencies:**
-   cd backend ➡ npm install express cors node mongodb mongoclient
+2. **Dependencies:**<br>
+   cd backend ➡ npm install express cors node mongodb mongoclient<br>
    cd frontend ➡ cd dashboard ➡ npm install
    
 ## Run project
 
-Open split terminals 
-Terminal 1: cd backend ➡ node app.js
+Open split terminals<br>
+Terminal 1: cd backend ➡ node app.js<br>
 Terminal 2: cd frontend ➡ cd dashboard ➡ npm run dev
 
 ## References
