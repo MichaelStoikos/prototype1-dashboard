@@ -58,10 +58,10 @@ Terminal 2: cd frontend ➡ cd dashboard ➡ npm run dev
 
 ## References
 
-**Personal Course Project Frontend:** for React basics
-**Perosnal Course Project Web II:** for nodeJS basics
-**W3Schools:** for CSS/HTML
-**Recharts Documentation:** for the use of the different charts
+**Personal Course Project Frontend:** for React basics<br>
+**Perosnal Course Project Web II:** for nodeJS basics<br>
+**W3Schools:** for CSS/HTML<br>
+**Recharts Documentation:** for the use of the different charts<br>
 **Lucid Documentation:** for the use of icons
 
 ## License
